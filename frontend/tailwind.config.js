@@ -1,0 +1,55 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+        display: ['Syne', 'sans-serif'],
+      },
+      colors: {
+        ink: {
+          DEFAULT: '#0D0F14',
+          50: '#F2F3F5',
+          100: '#E0E2E8',
+          200: '#B8BCC8',
+          300: '#8C91A6',
+          400: '#636880',
+          500: '#454A5E',
+          600: '#2E3244',
+          700: '#1E2233',
+          800: '#141824',
+          900: '#0D0F14',
+        },
+        jade: {
+          DEFAULT: '#00C896',
+          50: '#E5FFF7',
+          100: '#BFFAEB',
+          200: '#7FF5D7',
+          300: '#3FEFC3',
+          400: '#00E6AD',
+          500: '#00C896',
+          600: '#00A87E',
+          700: '#008A67',
+          800: '#006B50',
+          900: '#004D39',
+        },
+        amber: {
+          DEFAULT: '#F5A623',
+          50: '#FEF7E8',
+          100: '#FDEDC4',
+          200: '#FBDB89',
+          300: '#F8C84E',
+          400: '#F5A623',
+          500: '#E08A00',
+          600: '#B86F00',
+          700: '#905500',
+          800: '#683B00',
+          900: '#402100',
+        },
+      },
+    },
+  },
+  plugins: [],
+}
